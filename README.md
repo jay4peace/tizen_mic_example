@@ -34,11 +34,11 @@
 		%end
 		```
 
-	> To find a specific building block name, please refer to [mapping-bb-rs.xml](https://git.tizen.org/cgit/tools/building-blocks/plain/mapping-bb-rs.xml?h=tizen_5.0) in Tizen building block repository.
+	> To find a specific building block name, please refer to [mapping-bb-rs.xml](https://git.tizen.org/cgit/tools/building-blocks/plain/mapping-bb-rs.xml?h=tizen_5.0) in Tizen [building block repository](https://git.tizen.org/cgit/tools/building-blocks).
 
 3. make image
 	```shell
-	$ gbs createimage --ks-file=xxxxx.ks
+	$ gbs createimage --ks-file=YOUR_CUSTOM.ks
 	```
 	* You can find a new custom image in `mic-output` directory
 	```shell
