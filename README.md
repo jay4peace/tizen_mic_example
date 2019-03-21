@@ -5,7 +5,7 @@
 	- OS : Ubuntu 16.04 LTS
 	- Install Git Build System(GBS) and Image Creator(MIC) for Tizen developer
 	```shell
-	$ echo "deb [trusted=yes] http://download.tizen.org/tools/latest-release/Ubuntu_16.04/ /" >> /etc/apt/sources.list
+	$ echo "deb [trusted=yes] http://download.tizen.org/tools/latest-release/Ubuntu_16.04/ /" | sudo tee /etc/apt/sources.list.d/tizen.list
 	$ sudo apt-get update
 	$ sudo apt-get install gbs mic
 	```
